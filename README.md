@@ -52,8 +52,8 @@ Firstly import using:
 <br> from prediction_plots import medal_trends_2</code></pre>
 
 Then run the function using:  
-<pre><code> medal_trends_1() <br>
-medal_trends_2() </code></pre>
+<pre><code> medal_trends_1() 
+<br> medal_trends_2() </code></pre>
 
 #### To call World map - World map with medals
 Firstly import using: 
