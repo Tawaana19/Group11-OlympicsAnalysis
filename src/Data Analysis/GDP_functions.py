@@ -113,10 +113,10 @@ def medal_vs_gdp_scatter(NOC_input_AE, NOC_input_GDP, medal_type, save) :
     import itertools as it
 
     # Data set to work with
-    athlete_events = pd.read_csv('./dat/athlete_events_clean.csv')
-    gdp = pd.read_csv('./dat/WorldBank.csv')
-    games = pd.read_pickle('./dat/games.pkl')
-    medals = pd.read_pickle('./dat/medals.pkl')
+    athlete_events = pd.read_csv('./../dat/athlete_events_clean.csv')
+    gdp = pd.read_csv('./../dat/WorldBank.csv')
+    games = pd.read_pickle('./../dat/games.pkl')
+    medals = pd.read_pickle('./../dat/medals.pkl')
 
     assert isinstance(NOC_input_AE, str)
 
@@ -224,10 +224,10 @@ def medal_vs_gdp_EQ(medals, NOC_input_AE, NOC_input_GDP, medal_type):
     import matplotlib.pyplot as plt
     import itertools as it
 
-    athlete_events = pd.read_csv('./dat/athlete_events_clean.csv')
-    gdp = pd.read_csv('./dat/WorldBank.csv')
-    games = pd.read_pickle('./dat/games.pkl')
-    medals = pd.read_pickle('./dat/medals.pkl')
+    athlete_events = pd.read_csv('./../dat/athlete_events_clean.csv')
+    gdp = pd.read_csv('./../dat/WorldBank.csv')
+    games = pd.read_pickle('./../dat/games.pkl')
+    medals = pd.read_pickle('./../dat/medals.pkl')
 
     assert isinstance(NOC_input_AE, str)
     choice = thisdict[medal_type]
