@@ -6,6 +6,10 @@ dat folder: Contains all relevant .csv data files pre and post cleaning
 
 src folder: Contains all .py files 
 
+## Requirements
+
+All requirements + versions are listed in the requirements.txt file
+
 ## Steps to Run
 
 ### GDP Calculations
