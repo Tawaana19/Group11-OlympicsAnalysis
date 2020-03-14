@@ -36,6 +36,38 @@ Firstly import using:
 Then run the function using:  
 <pre><code> plt = plot_rate()</code></pre>
 
+### Women in Olympics
+
+
+All functions are located within src/gender_parity
+
+#### To call US Women/Athletes medal win ratio
+Firstly import using: 
+<pre><code> from gender_parity import plot_us_women_win_ratio </code></pre>
+for example:  
+<pre><code> plot_us_women_win_ratio()</code></pre>
+
+
+#### To call Year wise global sex ratio
+Firstly import using: 
+<pre><code> from gender_parity import plot_sex_ratio_year_wise </code></pre>
+
+Then run the function using:  
+<pre><code> plot_sex_ratio_year_wise()</code></pre>
+
+#### To call Year and country wise sex ratio
+Firstly import using: 
+<pre><code> from gender_parity import  plot_country_sex_ratio </code></pre>
+* argument 1 = Country code.
+Then run the function using:  
+<pre><code> plot_country_sex_ratio("KSA")</code></pre>
+
+#### To call Global sex ratio
+Firstly import using: 
+<pre><code> from gender_parity import plot_global_sex_ratio </code></pre>
+Then run the function using:  
+<pre><code> plot_global_sex_ratio()</code></pre>
+
 ### Tokyo 2020 Predictions
 All functions are located within src/Predictor
 
