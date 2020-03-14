@@ -77,15 +77,15 @@ All functions are located within src/Predictor
 
 #### To call Stacked Bar Plot - Ratio of medals
 Firstly import using: 
-<pre><code> from prediction_plots import stacked_bar_plot </code></pre>
+<pre><code> from src.dataanalysis.prediction_plots import stacked_bar_plot </code></pre>
 
 Then run the function using:  
 <pre><code> stacked_bar_plot() </code></pre>
 
 #### To call Medals line plots - Medals trends plots
 Firstly import using: 
-<pre><code> from prediction_plots import medal_trends_1 
-<br> from prediction_plots import medal_trends_2</code></pre>
+<pre><code> from src.dataanalysis.prediction_plots import medal_trends_1 
+<br> from src.dataanalysis.prediction_plots import medal_trends_2</code></pre>
 
 Then run the function using:  
 <pre><code> medal_trends_1() 
@@ -93,7 +93,7 @@ Then run the function using:
 
 #### To call World map - World map with medals
 Firstly import using: 
-<pre><code> from prediction_plots import world_map </code></pre>
+<pre><code> from src.dataanalysis.prediction_plots import world_map </code></pre>
 
 Then run the function using:  
 <pre><code> world_map() </code></pre>
