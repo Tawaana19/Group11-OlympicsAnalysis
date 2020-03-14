@@ -93,6 +93,9 @@ def medal_trends_2():
 
 
 def world_map():
-    import glob
-    print(glob.glob('./dat/*.html'))
+    from IPython.core.display import display, HTML
+    from IPython.display import FileLink
+    local_file = FileLink('./dat/country_medals.html')
+    display(local_file)
+    # display(HTML('./dat/country_medals.html'))
     
