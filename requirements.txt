@@ -1,12 +1,13 @@
 matplotlib==3.0.2
 missingno==0.4.1
 numpy==1.15.4
-pandas==0.23.4
+pandas==0.24.1
 plotly==3.9.0
 scikit-image==0.14.1
 scikit-learn==0.20.1
 scikit-surprise==1.0.6
-scipy==1.1.0
+scipy==1.2.0
 seaborn==0.9.0
 statsmodels==0.9.0
 pygal==2.0.0
+pygal-maps-world==1.0.2
