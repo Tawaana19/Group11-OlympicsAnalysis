@@ -3,10 +3,10 @@ import seaborn as sns
 from matplotlib.pylab import plt
 from pygal_maps_world.maps import World
 
-athlete_events = pd.read_csv('./data/athlete_events.csv')
+athlete_events = pd.read_csv('./dat/athlete_events.csv')
 female_athletes = athlete_events.loc[athlete_events['Sex'] == 'F']
 male_athletes = athlete_events.loc[athlete_events['Sex'] == 'M']
-medal_winners = pd.read_csv("./data/summer_clean.csv")
+medal_winners = pd.read_csv("./dat/summer_clean.csv")
 country_ratios = female_athletes[["NOC","Sex"]].groupby(["NOC"]).count()/(female_athletes[["NOC","Sex"]].groupby(["NOC"]).count()+male_athletes[["NOC","Sex"]].groupby(["NOC"]).count())
 
 
